@@ -12,6 +12,7 @@ cabal.mkDerivation (self: {
     dataInterval lens musicPitchLiteral nats positive semigroups
     typeUnary vectorSpace vectorSpacePoints
   ];
+  jailbreak = true;
   meta = {
     description = "Musical pitch representation";
     license = self.stdenv.lib.licenses.bsd3;
