@@ -13,5 +13,6 @@ cabal.mkDerivation (self: {
     description = "A library to read, write and manipulate MIDI, WAVE, and SoundFont2 files";
     license = self.stdenv.lib.licenses.bsd3;
     platforms = self.ghc.meta.platforms;
+    maintainers = with self.stdenv.lib.maintainers; [ meditans ];
   };
 })

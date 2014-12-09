@@ -27,5 +27,6 @@ cabal.mkDerivation (self: {
     description = "Some useful preludes for the Music Suite";
     license = self.stdenv.lib.licenses.bsd3;
     platforms = self.ghc.meta.platforms;
+    maintainers = with self.stdenv.lib.maintainers; [ meditans ];
   };
 })

@@ -10,5 +10,6 @@ cabal.mkDerivation (self: {
     description = "Standard version of the reverse apply operator";
     license = self.stdenv.lib.licenses.bsd3;
     platforms = self.ghc.meta.platforms;
+    maintainers = with self.stdenv.lib.maintainers; [ meditans ];
   };
 })
