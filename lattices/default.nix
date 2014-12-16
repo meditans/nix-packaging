@@ -10,6 +10,5 @@ cabal.mkDerivation (self: {
     description = "Fine-grained library for constructing and manipulating lattices";
     license = self.stdenv.lib.licenses.bsd3;
     platforms = self.ghc.meta.platforms;
-    maintainers = with self.stdenv.lib.maintainers; [ meditans ];
   };
 })

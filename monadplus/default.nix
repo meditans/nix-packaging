@@ -10,6 +10,5 @@ cabal.mkDerivation (self: {
     description = "Haskell98 partial maps and filters over MonadPlus";
     license = self.stdenv.lib.licenses.bsd3;
     platforms = self.ghc.meta.platforms;
-    maintainers = with self.stdenv.lib.maintainers; [ meditans ];
   };
 })

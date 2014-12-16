@@ -12,6 +12,5 @@ cabal.mkDerivation (self: {
     description = "Type-level and typed unary natural numbers, inequality proofs, vectors";
     license = self.stdenv.lib.licenses.bsd3;
     platforms = self.ghc.meta.platforms;
-    maintainers = with self.stdenv.lib.maintainers; [ meditans ];
   };
 })

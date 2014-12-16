@@ -12,6 +12,5 @@ cabal.mkDerivation (self: {
     description = "Parsing and pretty printing of Roman numerals";
     license = self.stdenv.lib.licenses.bsd3;
     platforms = self.ghc.meta.platforms;
-    maintainers = with self.stdenv.lib.maintainers; [ meditans ];
   };
 })

@@ -16,6 +16,5 @@ cabal.mkDerivation (self: {
     description = "Bindings to Lilypond";
     license = self.stdenv.lib.licenses.bsd3;
     platforms = self.ghc.meta.platforms;
-    maintainers = with self.stdenv.lib.maintainers; [ meditans ];
   };
 })

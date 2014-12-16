@@ -16,6 +16,5 @@ cabal.mkDerivation (self: {
     description = "A representation of the MusicXML format";
     license = self.stdenv.lib.licenses.bsd3;
     platforms = self.ghc.meta.platforms;
-    maintainers = with self.stdenv.lib.maintainers; [ meditans ];
   };
 })
