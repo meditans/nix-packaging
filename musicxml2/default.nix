@@ -6,8 +6,8 @@
 
 cabal.mkDerivation (self: {
   pname = "musicxml2";
-  version = "1.8";
-  sha256 = "19s08s88hzazyy2fmzg485krfw02jpcrfv1cgb300zpj3lzv7k81";
+  version = "1.8.1";
+  sha256 = "096vm73a4ngl1yc27x7z226difh97zjm5386cy5vw58ndmf1fws7";
   buildDepends = [
     dataDefault musicDynamicsLiteral musicPitchLiteral nats
     reverseApply semigroups typeUnary xml

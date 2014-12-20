@@ -6,8 +6,8 @@
 
 cabal.mkDerivation (self: {
   pname = "lilypond";
-  version = "1.8";
-  sha256 = "188m2qvv3l30wdhl634dkqvbwxan2dab7ip6cwp5kx5rv19q6sm6";
+  version = "1.8.1";
+  sha256 = "0y60i1rsl6rzdvbx2jj3y660bqlsz6dywwxq8nl4q1g6gr2k97fd";
   buildDepends = [
     dataDefault musicDynamicsLiteral musicPitchLiteral prettify
     semigroups vectorSpace

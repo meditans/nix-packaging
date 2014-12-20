@@ -6,8 +6,8 @@
 
 cabal.mkDerivation (self: {
   pname = "music-parts";
-  version = "1.8";
-  sha256 = "0mb07c4494dxdvzsyi06znnha65llpgy08hf6wfrsl14nizpasfl";
+  version = "1.8.1";
+  sha256 = "1m0grrqmlj21ld5g381zz1y7s25ngkjq0d5sr3wd7z7ssp44xxs2";
   buildDepends = [
     adjunctions aeson dataDefault lens musicDynamics musicPitch
     romanNumerals semigroups

@@ -6,8 +6,8 @@
 
 cabal.mkDerivation (self: {
   pname = "music-pitch";
-  version = "1.8";
-  sha256 = "0q7v133p77sn2xwv2g14l1xzszzwqnfgs4k0rh4ckvzdphnlwvii";
+  version = "1.8.1";
+  sha256 = "01wrhzyn7mpa4xk1iyg17clfwyy6ggfg1bz45dvr62pz3gl0sd03";
   buildDepends = [
     dataInterval lens musicPitchLiteral nats positive semigroups
     typeUnary vectorSpace vectorSpacePoints

@@ -4,8 +4,8 @@
 
 cabal.mkDerivation (self: {
   pname = "music-pitch-literal";
-  version = "1.8";
-  sha256 = "0l4iw993jm0azl2v62y6k7gfg85kqwlr48gz4fk2c2ag4v5adifg";
+  version = "1.8.1";
+  sha256 = "11qjsxn10lrl3z7yi8h2likasy1g68ybbfzpnx03d01irl5kyzyf";
   buildDepends = [ semigroups ];
   meta = {
     description = "Overloaded pitch literals";

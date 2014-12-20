@@ -4,8 +4,8 @@
 
 cabal.mkDerivation (self: {
   pname = "music-dynamics-literal";
-  version = "1.8";
-  sha256 = "1rgir9r12jrc73g1rsnl9ksqzr2yh7pyha13ih94lskcqc2zvqps";
+  version = "1.8.1";
+  sha256 = "1p5r9fj71rvg2hma1r4s4vlxxqzam7iq99hfmn8k92sv7yzjm5na";
   buildDepends = [ semigroups ];
   meta = {
     description = "Overloaded dynamics literals";

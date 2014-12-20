@@ -7,8 +7,8 @@
 
 cabal.mkDerivation (self: {
   pname = "music-suite";
-  version = "1.8";
-  sha256 = "04xvs2vgmcm7czzg79jkk0wingysx1a2zpjw1lvbxanf7xcc2xx4";
+  version = "1.8.1";
+  sha256 = "14hhzmsq5m2h0qq3220xv1gg90sn69whmiysj3y0mw6rcm0zia0f";
   buildDepends = [
     abcnotation lilypond musicArticulation musicDynamics
     musicDynamicsLiteral musicParts musicPitch musicPitchLiteral

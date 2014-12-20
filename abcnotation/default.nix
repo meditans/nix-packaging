@@ -4,8 +4,8 @@
 
 cabal.mkDerivation (self: {
   pname = "abcnotation";
-  version = "1.8";
-  sha256 = "1j0j2wzn7fr0n3gbcdf531wr5sg7xmrmbm221j5pni9nlqm2hr7x";
+  version = "1.8.1";
+  sha256 = "18qb8qdlfi3r8vv8aagsz65iv2clyj9lzn0q29m4gpvzgncsn22n";
   buildDepends = [ parsec prettify semigroups ];
   meta = {
     description = "Haskell representation and parser for ABC notation";

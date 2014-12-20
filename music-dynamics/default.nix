@@ -4,8 +4,8 @@
 
 cabal.mkDerivation (self: {
   pname = "music-dynamics";
-  version = "1.8";
-  sha256 = "0abziidvf78wh86r2lxqg3jvr93nfjnmzr9k3iiki1lq2w6p2n9y";
+  version = "1.8.1";
+  sha256 = "1rdv9kn3i5m6l9xpfmccdwjkdw0smr9qiaw4p0y79fr9gdqrd6a1";
   buildDepends = [ average musicDynamicsLiteral semigroups ];
   meta = {
     description = "Abstract representation of musical dynamics";
